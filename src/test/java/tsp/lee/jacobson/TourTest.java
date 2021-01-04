@@ -16,7 +16,7 @@ public class TourTest {
 	 * When no cities
 	 * Then distance = 0
 	 */
-	public void getDistance_noCities_0() {
+	public void totalDistance_noCities_0() {
 		double expected = 0;
 		Tour tour = new Tour();
 		tour.setCity(0, c1); 
