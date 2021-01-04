@@ -3,6 +3,8 @@ package tsp.lee.jacobson;
 import java.util.ArrayList;
 import java.util.Collections;
 
+/** This class gives a tour */
+
 public class Tour{
 
     // Holds our tour of cities

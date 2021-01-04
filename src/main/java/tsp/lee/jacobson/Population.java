@@ -1,5 +1,7 @@
 package tsp.lee.jacobson;
 
+/** This class gives a population */ 
+
 public class Population {
 
     // Holds population of tours
