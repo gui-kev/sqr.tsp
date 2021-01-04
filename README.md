@@ -29,31 +29,31 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| distanceToCity |  |  | 
-| getX |  |  | 
-| getY |  |  | 
-| toString |  |  | 
+| distanceToCity | T | Can be tested | 
+| getX | D | This is a getter | 
+| getY | D | This is a getter  | 
+| toString | D | Contains only the functions called | 
 
 ### Class Tour
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| containsCity  |  |  |
-| getCity  |  |  |
-| getDistance  |  |  |
-| getFitness  |  |  |
-| setCity  |  |  |
-| tourSize  |  |  |
-| toString  |  |  |
+| containsCity  | D | Contains only one function called  |
+| getCity  | D | Contains only one function called |
+| getDistance  | T | Can be easy test |
+| getFitness  | I | Just a simple division and function call, no test needed |
+| setCity  | D | This is a setter, no test needed |
+| tourSize  | D | Only one function called |
+| toString  | I | Simple function, no test needed |
 
 ### Class Population
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| getFittest  |  |  |
-| getTour  |  |  |
-| populationSize  |  |  |
-| saveTour  |  |  |
+| getFittest  | T | Can be tested |
+| getTour  | D | Only one function called |
+| populationSize  | D | Only one function called |
+| saveTour  | D | Only one function called |
 
 ## Functions to test now
 
